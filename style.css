@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+.navbar{
+    padding:0 2%;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 500;
+}
+/*hero section*/
+.hero-section{
+    background: #F4F6F5; 
+    padding:6%;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Poppins';
+}
+h2{
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.bg-white{  
+    position: absolute;
+    padding: 2px;
+    transform: rotate(-2deg);
+}
+.bg-brown{
+    position: absolute;
+    background: #EBD96B;
+    padding: 2px;
+    margin: 2px;
+    transform: rotate(-2deg);
+}
+.h-img{
+    border-radius: 10px;
+}
+p{
+    font-size:1rem;
+    font-weight: bold;
+}
+/*Banner imgs*/
+.b-banner{
+    display: flex;
+    justify-content:space-around;
+    background-color: #EBD96B; 
+    align-items: center;
+}
+.b-con{
+    display:grid;
+    grid-template-rows: repeat(3, auto); 
+    grid-template-columns: repeat( auto);
+}
+.b-img{  
+    width: 100px; 
+    align-items: center;
+    mix-blend-mode: darken; 
+    margin-top: 20px;
+    padding: 15px;
+}
+/*Hero 2*/
+.ahero{
+    margin-top: 20px;
+    padding: 2% 0;
+    background-color: #fae157;
+} 
+/*Another Banner*/
+.abanner{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.b-text{ 
+    grid-row-start: span 2;
+    padding:5%; 
+}
+/*Fav Section*/
+
+.download{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 4% 0;
+}
+.inner-text{
+    justify-content:center;
+    width: 100%;
+}
+.d-img{
+    height:60vh;
+    width:100%;
+}
+.form-control{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+} 
+ 
+.send-btn{ 
+    justify-content: end;
+    align-items: flex-end;
+}
+.bottom-text{
+    padding: 5%;
+    background: #EBD96B;
+}
+.bi{
+    color:#EBD96B;
+}
+.b-link{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+.b-link > ul{
+    list-style: none; 
+}
+ li>p{
+    color: white;
+}
+li{
+    color: gray;
+}
+footer{
+    padding: 5%;
+}
+@media screen and (max-width: 868px){
+    .inner-text{ 
+        align-items: center;
+        width: 100%;
+    }
+    .inner-img{
+        display: none;
+    }
+}
